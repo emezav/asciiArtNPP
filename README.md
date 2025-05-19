@@ -41,11 +41,11 @@ Program arguments:
 
 ## Program results
 
-![Sloth image - full width, Kayali X filter](./example_results/slot_80_ascii.png)
+![Sloth image - full width, Kayali X filter](./example_results/sloth_80_ascii.png)
 
-![Sloth image - full width, default filter](./example_results/slot_full_ascii.png)
+![Sloth image - full width, default filter](./example_results/sloth_full_ascii.png)
 
-![Sloth image - full width, Kayali X filter](./example_results/slot_full_kayali_x_ascii.png)
+![Sloth image - full width, Kayali X filter](./example_results/sloth_full_kayali_x_ascii.png)
 
 
 ## Project description
