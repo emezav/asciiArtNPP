@@ -39,6 +39,10 @@ Program arguments:
 
 ![Execution sequence - Windows](./example_results/build_execution_sequence_windows.png)
 
+## Execution sequence (Linux)
+
+![Execution sequence - Linux](./example_results/build_execution_sequence_linux.png)
+
 ## Program results
 
 ![Sloth image - full width, Kayali X filter](./example_results/sloth_80_ascii.png)
