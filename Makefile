@@ -18,13 +18,13 @@ DATA_DIR = data
 LIB_DIR = lib
 
 # Define source files and target executable
-SRC = $(SRC_DIR)/ascii_art.cpp 
+SRC = $(SRC_DIR)/ascii_art.cpp
 TARGET = $(BIN_DIR)/asciiArtNpp.exe
 
 # Define the default rule
 all: $(TARGET)
 
-
+# Build rule
 build: all
 	@echo "Build successful."
 

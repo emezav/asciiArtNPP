@@ -41,7 +41,6 @@ include_directories(
 )
 
 # Find FreeImage
-set(CMAKE_PREFIX_PATH /home/erwin/freeimage)
 find_package(FreeImage CONFIG REQUIRED)
 
 # Only create executable if FreeImage is found
