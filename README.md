@@ -35,6 +35,19 @@ Program arguments:
 - asciiPattern: ASCII string pattern used to transform gray intensity to ASCII.
   First character represents black, last represents white.
 
+## Execution sequence (Windows)
+
+![Execution sequence - Windows](./example_results/build_execution_sequence_windows.png)
+
+## Program results
+
+![Sloth image - full width, Kayali X filter](./example_results/slot_80_ascii.png)
+
+![Sloth image - full width, default filter](./example_results/slot_full_ascii.png)
+
+![Sloth image - full width, Kayali X filter](./example_results/slot_full_kayali_x_ascii.png)
+
+
 ## Project description
 
 According to Wikipedia, ASCII Art is a graphic design technique that uses computers for presentation and consists of pictures pieced together from the 95 printable (from a total of 128) characters defined by the ASCII Standard [1]. This technique can be used to show images on text based devices, such as terminals or embedded devices (or just for fun!).
