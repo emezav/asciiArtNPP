@@ -39,7 +39,7 @@ Program arguments:
 
 According to Wikipedia, ASCII Art is a graphic design technique that uses computers for presentation and consists of pictures pieced together from the 95 printable (from a total of 128) characters defined by the ASCII Standard [1]. This technique can be used to show images on text based devices, such as terminals or embedded devices (or just for fun!).
 
-This project takes the code from Samples/4_CUDA_Libraries/boxFilterNPP.
+This project is based on the code from Samples/4_CUDA_Libraries/boxFilterNPP.
 
 The program performs the following logic:
 
