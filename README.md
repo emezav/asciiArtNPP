@@ -10,7 +10,23 @@ This project was built as the "CUDA at Scale Independent Project" on the Courser
 
 Common/ folder contains the helper code from the CUDA samples v12.9.
 
-## TL;DR compilation on linux
+## Running the project on the coursera lab
+
+- Open a Coursera VS Code session
+- Open a Terminal inside VS Code
+- Clone this github repository
+- cd to the repository
+- Build and run
+
+```sh
+git clone https://github.com/emezav/asciiArtNPP.git
+cd asciiArtNPP
+make clean build run
+```
+
+![Execution sequence - Coursera lab environment](./example_results/build_execution_sequence_coursera_lab_environment.png)
+
+## TL;DR compilation on Linux
 
 ```sh
 make clean build run
@@ -71,7 +87,7 @@ The program performs the following logic:
 
 This project requires the CUDA Toolkit and the FreeImage library installed and configured. Makefile is supplied for Linux systems.
 
-CMake can be used used to automate compilation on Linux or Widows systems.
+CMake can be used used to automate compilation on Widows systems, after some configuration is performed.
 
 ## Building on the Coursera lab environment
 
@@ -84,7 +100,6 @@ Browse to the downloaded folder an issue the make commands similar to the course
 make clean build
 make run
 ```
-
 
 ## Building using VS Code
 
