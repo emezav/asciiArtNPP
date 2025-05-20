@@ -41,7 +41,9 @@ run: $(TARGET)
 	@echo "Default filter, full width columns: $(DATA_DIR)/sloth_full_ascii.txt"
 	./$(TARGET) $(DATA_DIR)/sloth.pgm 0 > $(DATA_DIR)/sloth_full_ascii.txt
 	@echo "Kayali - x filter, full width columns: $(DATA_DIR)/sloth_full_ascii.txt"
-	./$(TARGET) $(DATA_DIR)/sloth.pgm 0 7 > $(DATA_DIR)/sloth_full_kayali_x_ascii.txt
+	./$(TARGET) $(DATA_DIR)/sloth.pgm 0 6 > $(DATA_DIR)/sloth_full_kayali_x_ascii.txt
+	@echo "Prewitt - x filter, full width columns: $(DATA_DIR)/sloth_full_ascii.txt"
+	./$(TARGET) $(DATA_DIR)/sloth.pgm 0 8 > $(DATA_DIR)/sloth_full_prewitt_x_ascii.txt
 
 # Clean up
 clean:
